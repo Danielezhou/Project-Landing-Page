@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.header-container{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(255, 234, 203);
+    padding: 16px;
+}
+.header-links{
+    display: flex;
+    gap:2rem;
+}
+.title{
+    font-size: 48px;
+    font-weight: 900px;
+}
+.sign{
+    align-self: center;
+}
+
+.description, .header-links{
+    font-size:18px;
+}
+.image img{
+    max-width: 280px;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 148, 148);
+}
+.header-logo{
+    font-size:24px;
+}
+
+.click{
+    width: 100px;
+    height: auto;
+    background-color: rgb(255, 148, 148);
+    border-radius: 25px;
+    color:aliceblue;
+    font-size: 20px;
+    border:none;
+}
+
+
+.second-header{
+    display:flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
+    margin: 48px;
+
+}
+.information{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 900px;
+    margin: 48px;
+}
+.box img{
+    max-width: 150px;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 148, 148);
+}
+.third-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 242, 235);
+    padding: 16px;
+    font-size: 24px;
+}
+.quote{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.artist{
+    align-self:flex-end;
+    font-size: 18px;
+}
+.fourth-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+}
+.fourth-box{
+    padding: 40px;
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 148, 148);
+    border-radius: 15px;
+    margin: 48px;
+
+}
+
+.footer{
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 20px;
+}
